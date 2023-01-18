@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
   ```
-  2. Setting up the general styling in css
+2. Setting up the general styling in css
   ```
   :root {
   /* ### Primary Colors */
@@ -23,6 +23,8 @@
   --lt-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
   }
+
+  /* Global styling */
 
   html {
     box-sizing: border-box;
@@ -44,17 +46,22 @@
   }
 
   main {
-    max-width: 375px;
+    max-width: 335px;
+    background-color: white;
+    margin: 60px auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 60px -10px var(--grayish-blue);
   }
   ```
 
-  3. The component consists of three sections
+3. The component consists of three sections
   
-  4. There's no header element so I leave this out
+4. There's no header element so I leave this out
   
-  5. I will seperate the main section in two sections where another two sections will be nested inside the second section since the desktop version needs a flexbox styling for the last two sections on the lower half of the site
+5. I will seperate the main section in two sections where another two sections will be nested inside the second section since the desktop version needs a flexbox styling for the last two sections on the lower half of the site
 
-  6. Adding the appropriate tags to my html
+6. Adding the appropriate tags to my html
     ```
     <main class="main-cont">
     <!-- ### Hero Section ### -->
@@ -67,7 +74,7 @@
       </p>
     </section>
 
-<!-- ### Flexbox section ### -->
+  <!-- ### Flexbox section ### -->
 
     <section class="flex-sec">
 
