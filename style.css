@@ -42,7 +42,7 @@ main {
 
 /* Section styling */
 
-.padding-help {
+.sec-help {
   width: 100%;
   height: 250px;
   padding: 15px 25px;
@@ -71,6 +71,7 @@ main {
 }
 
 .price-sec-title {
+  font-size: 1.1rem;
   color: white;
 }
 
@@ -109,5 +110,22 @@ button {
 }
 
 /* Why us section */
+
+.why-us {
+  background-color: hsl(179, 44%, 55%);
+}
+
+.why-us-title {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 18px;
+}
+
+.list {
+  font-size: 0.85rem;
+  color: var(--lt-gray);
+  margin: 0;
+  margin-bottom: 4px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
