@@ -50,6 +50,10 @@ main {
 
 /* Hero section */
 
+.hero-sec {
+  margin-bottom: 10px;
+}
+
 .hero-title {
   color: var(--cyan);
 }
