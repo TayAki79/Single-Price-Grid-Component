@@ -40,6 +40,11 @@
     min-height: 100vh;
     font-family: 'Karla', sans-serif;
     margin: 0 auto;
+    background-color: var(--lt-gray);
+  }
+
+  main {
+    max-width: 375px;
   }
   ```
 
@@ -96,3 +101,7 @@
   </main>
 
   ```
+
+7. The main section will be the container for the component. So I set the width  and other stylings to this container
+
+8. Set the styling for the first section (hero section)
