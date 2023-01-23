@@ -131,5 +131,108 @@ button {
   margin: 0;
   margin-bottom: 4px;
 }
+
+@media only screen and (min-width: 800px) {
+  /* Global Styles */
+  
+  body {
+    max-width: 1440px;
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+  }
+  
+  main {
+    max-width: 850px;
+    height: 968px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    translate: (-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 5px 60px -10px var(--grayish-blue);
+  }
+
+  .flex-sec {
+    display: flex;
+  }
+
+  /* Hero section */
+
+  .hero-sec {
+    padding-left: 55px;
+    margin-bottom: 0;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+
+  .hero-desc {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 650px;
+  }
+
+  /* Price section */
+
+.price-sec {
+  height: 325px;
+  padding: 55px;
+  border-bottom-left-radius: 10px;
+}
+
+.price-sec-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 2.5rem;
+}
+
+.frequency {
+  font-size: 1.3rem;
+}
+
+.price-desc {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 29px;
+}
+
+button {
+  height: 65px;
+  padding: 0;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  box-shadow: 0 10px 40px -25px black;
+  margin: 0 auto;
+}
+
+/* Why us section */
+
+.why-us {
+  padding: 55px;
+  height: 325px;
+  border-bottom-right-radius: 10px;
+}
+
+.why-us-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.list {
+  font-size: 1.15rem;
+}
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
