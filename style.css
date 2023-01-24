@@ -144,6 +144,7 @@ button {
   main {
     max-width: 638px;
     border-radius: 10px;
+    box-shadow: 0 5px 60px -20px var(--grayish-blue);
   }
 
   h3, h4, p {
