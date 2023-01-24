@@ -25,6 +25,7 @@ html {
 body {
   max-width: 375px;
   width: 100%;
+  padding-top: 104px;
   min-height: 100vh;
   font-family: 'Karla', sans-serif;
   margin: 0 auto;
@@ -34,7 +35,7 @@ body {
 main {
   max-width: 335px;
   background-color: white;
-  margin: 60px auto;
+  margin: 0 auto;
   border: none;
   border-radius: 5px;
   box-shadow: 0 5px 60px -10px var(--grayish-blue);
@@ -117,6 +118,7 @@ button {
 
 .why-us {
   background-color: hsl(179, 44%, 55%);
+  border-radius: 0 0 5px 5px;
 }
 
 .why-us-title {
